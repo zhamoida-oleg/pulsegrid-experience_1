@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pulsegrid.example/</loc></url>
+  <url><loc>https://pulsegrid.example/product</loc></url>
+  <url><loc>https://pulsegrid.example/solutions</loc></url>
+  <url><loc>https://pulsegrid.example/integrations</loc></url>
+  <url><loc>https://pulsegrid.example/pricing</loc></url>
+  <url><loc>https://pulsegrid.example/resources</loc></url>
+  <url><loc>https://pulsegrid.example/security</loc></url>
+  <url><loc>https://pulsegrid.example/customers</loc></url>
+  <url><loc>https://pulsegrid.example/careers</loc></url>
+</urlset>

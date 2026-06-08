@@ -1,0 +1,2 @@
+import PageHero from '../components/PageHero';
+export default function About(){return <><PageHero eyebrow="About" title="PulseGrid exists to make complexity visible." text="A fictional company narrative about transforming operational noise into coordinated action."/><section className="section"><h2>Product philosophy</h2><p>Every complex organization already has thousands of signals. PulseGrid imagines a cleaner way to connect them: one map, one pulse, one operational rhythm.</p></section></>}

@@ -1,0 +1,3 @@
+import PageHero from '../components/PageHero';
+import Card from '../components/Card';
+export default function Security(){const items=['Encryption','SOC 2 Ready Controls','Audit Logs','SSO & SCIM','Role Permissions','Data Residency'];return <><PageHero eyebrow="Chapter 06 — The Vault" title="The protected zone of the platform." text="Security is framed as a cyber vault with controls, logs and access governance." scene="vault"/><section className="section grid-3">{items.map(i=><Card key={i}><h3>{i}</h3><p>Enterprise-grade trust concept with clear permissions, traceability and safe collaboration.</p></Card>)}</section></>}

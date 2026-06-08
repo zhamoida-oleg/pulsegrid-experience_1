@@ -1,0 +1,3 @@
+import PageHero from '../components/PageHero';
+import { useState } from 'react';
+export default function Contact(){const [sent,setSent]=useState(false);return <><PageHero eyebrow="Contact" title="Book a guided mission demo." text="The form validates fields locally and simulates submission for the prototype."/><section className="section form-wrap"><form onSubmit={(e)=>{e.preventDefault();setSent(true)}}><input required placeholder="Name"/><input required type="email" placeholder="Email"/><input required placeholder="Company"/><textarea required placeholder="Tell us what you want to coordinate"/><button className="btn primary">Submit Request</button>{sent&&<p className="success">Request received. Prototype form submitted locally.</p>}</form></section></>}

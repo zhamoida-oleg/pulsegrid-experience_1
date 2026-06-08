@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Signup(){return <section className="auth"><div className="auth-card"><p className="eyebrow">The Gateway</p><h1>Create your mission account</h1><input placeholder="Work email"/><input placeholder="Company"/><input placeholder="Password" type="password"/><Link className="btn primary" to="/demo">Enter Demo Dashboard</Link></div></section>}
